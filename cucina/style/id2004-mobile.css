@@ -1,0 +1,133 @@
+#cwrap .desktop-image {
+  display: inline; }
+#cwrap .mobile-show {
+  display: none; }
+
+@media screen and (max-width: 900px) {
+  body #cwrap {
+    width: 100%; }
+    body #cwrap #mainmenu {
+      width: 100% !important;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+    body #cwrap #orange_header {
+      width: 100%; }
+      body #cwrap #orange_header .head_img_container img {
+        display: block;
+        width: 100%;
+        height: auto; }
+      body #cwrap #orange_header .head_img_container .mobile-show {
+        display: none; }
+    body #cwrap .content-box {
+      width: 100% !important; }
+      body #cwrap .content-box #rightcontent {
+        width: 100% !important;
+        float: none;
+        margin: auto;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+      body #cwrap .content-box #footer5 {
+        width: 100%;
+        float: none; } }
+@media screen and (max-width: 750px) {
+  body #cwrap {
+    padding-top: 0;
+    width: 100%; }
+    body #cwrap #mainmenu {
+      display: none; }
+    body #cwrap #menu_mobile {
+      display: block !important;
+      padding: 0 5px;
+      margin: 3px 0; }
+      body #cwrap #menu_mobile select {
+        width: 100%; }
+    body #cwrap .desktop-image {
+      display: none; }
+    body #cwrap .mobile-show {
+      display: block;
+      width: 100%;
+      height: auto; }
+    body #cwrap #orange_header {
+      width: 100% !important; }
+      body #cwrap #orange_header .head_img_container {
+        width: 100% !important; }
+        body #cwrap #orange_header .head_img_container .desktop-image {
+          display: none; }
+        body #cwrap #orange_header .head_img_container .mobile-show {
+          display: block;
+          width: 100%;
+          height: auto; }
+    body #cwrap .content-box #rightcontent.content-fresh {
+      width: 100% !important;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      padding: 10px !important;
+      border-radius: 0; }
+      body #cwrap .content-box #rightcontent.content-fresh p {
+        width: 100% !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .image-box * {
+        width: 100% !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .image-box img {
+        float: none !important;
+        margin: auto !important;
+        display: block !important;
+        height: auto !important;
+        opacity: 1 !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .image-box .euro-image {
+        width: 100% !important;
+        max-width: 480px !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .image-box .book-01_edited-40 {
+        width: 100% !important;
+        max-width: 480px !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .image-box .add-image {
+        width: 100% !important;
+        max-width: 500px !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .image-box .add-image-second {
+        width: 100% !important;
+        max-width: 650px !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .image-box .pay-button {
+        width: 100% !important;
+        max-width: 460px !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .image-box img {
+        float: none !important;
+        margin: auto !important;
+        display: block !important;
+        height: auto !important;
+        opacity: 1 !important;
+        width: 100% !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .olio-di-coco-box > img {
+        margin: 20px auto !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .fbk-sugar {
+        margin-top: 0 !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .barrette-proteiche-danni, body #cwrap .content-box #rightcontent.content-fresh .content-box .fbk-nuova-ecover, body #cwrap .content-box #rightcontent.content-fresh .content-box .box-attenzione, body #cwrap .content-box #rightcontent.content-fresh .content-box .ormone-dimagrante, body #cwrap .content-box #rightcontent.content-fresh .content-box .box-effetti-antiaging,
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .garanzia-box-cbg, body #cwrap .content-box #rightcontent.content-fresh .content-box .final-add, body #cwrap .content-box #rightcontent.content-fresh .content-box .latte-di-soia-danni {
+        display: block !important;
+        margin: auto !important;
+        width: 100% !important;
+        height: auto !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .fbk-nuova-ecover {
+        max-width: 200px !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .box-attenzione {
+        max-width: 650px !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .barrette-proteiche-danni, body #cwrap .content-box #rightcontent.content-fresh .content-box .ormone-dimagrante, body #cwrap .content-box #rightcontent.content-fresh .content-box .pane-integrale-danni, body #cwrap .content-box #rightcontent.content-fresh .content-box .olio-di-coco,
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .latte-di-soia-danni {
+        max-width: 400px !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .box-effetti-antiaging {
+        max-width: 650px !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .garanzia-box-cbg {
+        max-width: 650px !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .content-box #testimonial {
+        margin: 0; }
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .book-01_edited-40 {
+        max-width: 480px !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .final-add {
+        max-width: 350px !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .content-box .fbk-wheat, body #cwrap .content-box #rightcontent.content-fresh .content-box .fbk-oils, body #cwrap .content-box #rightcontent.content-fresh .content-box .fbk-heart, body #cwrap .content-box #rightcontent.content-fresh .content-box .fbk-sugar {
+        max-width: 315px !important; }
+      body #cwrap .content-box #rightcontent.content-fresh .mobile-hidden {
+        display: none; } }
+
+/*# sourceMappingURL=id2004-mobile.css.map */

@@ -1,0 +1,116 @@
+<p><span style="color:#FF0000;"><span style="font-size: x-large;"><strong>VIDEO GRATIS per soli uomini </strong></span></span></p>
+
+<p> </p>
+
+<h2 style="font-style: italic; text-align: center;"><strong><span style="color: #800000;"><span style="font-size: xx-large;"><span style="color: #000080;"><span style="color: #000000;">"il mio piccolo SPORCO segreto per bruciare il grasso della pancia"</span></span></span></span></strong></h2>
+
+<p style="text-align: center;"><strong><span style="color: #800000;"><span style="font-size: xx-large;"><span style="color: #000080;"><span style="color: #000000;">(guarda il video fino alla fine)</span></span></span></span></strong><br />
+    <span style="font-size: x-small;"><em><span style="background-color: #ffff99;">Assicurati di avere il volume acceso</span></em></span> <br />
+    <em><span style="font-size: x-small;"><strong>Clicca qui </strong>sotto per vedere il video - attendi 10 secondi per il caricamento</span></em></p>
+
+<p style="text-align: center;"><span style="font-size: 13px; text-align: center;">{{{ snippets.men_pier_fede_39 }}}</span></p>
+
+<p style="text-align: center;"> </p>
+
+<p style="text-align: center;"> </p>
+
+<p style="text-align: center;"> </p>
+
+<p align="center"> </p>
+
+<p> </p>
+
+<p> </p>
+
+<blockquote>
+    <blockquote><span style="font-size: x-small; text-align: justify;float:left">Nella video presentazione che trovi in questa pagina scoprirai alcuni consigli per bruciare il grasso della pancia e ottenere gli addominali scolpiti. Non ci sono trucchi...questo è un approccio scientifico che ti permette di eliminare le tue voglie incontrollate di cibo, comprende i più efficaci esercizi full-body che innescano il processo naturale per bruciare il grasso testardo, e soprattutto, scoprirai alcuni dei più potenti atteggiamenti mentali che ti permetteranno di raggiungere e mantenere un corpo magro e atletico per tanto, tanto tempo.  <strong>Guarda il video fino in fondo, perchè alla fine ho preparato una sorpresa per te!</strong></span>
+
+        <p style="text-align: left;clear:both"> </p>
+
+        <p style="text-align: left;clear:both"> </p>
+    </blockquote>
+</blockquote>
+<script type="text/javascript">
+
+    (function(c,h){var e,d;if("localStorage"in window)try{d="undefined"===typeof window.localStorage?h:window.localStorage,e="undefined"==typeof d||"undefined"==typeof window.JSON?!1:!0}catch(j){e=!1}c.totalStorage=function(b,a){return c.totalStorage.impl.init(b,a)};c.totalStorage.setItem=function(b,a){return c.totalStorage.impl.setItem(b,a)};c.totalStorage.getItem=function(b){return c.totalStorage.impl.getItem(b)};c.totalStorage.getAll=function(){return c.totalStorage.impl.getAll()};c.totalStorage.deleteItem=
+        function(b){return c.totalStorage.impl.deleteItem(b)};c.totalStorage.impl={init:function(b,a){return"undefined"!=typeof a?this.setItem(b,a):this.getItem(b)},setItem:function(b,a){if(!e)try{return c.cookie(b,a),a}catch(g){console.log("Local Storage not supported by this browser. Install the cookie plugin on your site to take advantage of the same functionality. You can get it at https://github.com/carhartl/jquery-cookie")}var f=JSON.stringify(a);d.setItem(b,f);return this.parseResult(f)},getItem:function(b){if(!e)try{return this.parseResult(c.cookie(b))}catch(a){return null}b=
+        d.getItem(b);return this.parseResult(b)},deleteItem:function(b){if(!e)try{return c.cookie(b,null),!0}catch(a){return!1}d.removeItem(b);return!0},getAll:function(){var b=[];if(e)for(var a in d)a.length&&b.push({key:a,value:this.parseResult(d.getItem(a))});else try{var g=document.cookie.split(";");for(a=0;a<g.length;a++){var f=g[a].split("=")[0];b.push({key:f,value:this.parseResult(c.cookie(f))})}}catch(h){return null}return b},parseResult:function(b){var a;try{a=JSON.parse(b),"undefined"==typeof a&&
+    (a=b),"true"==a&&(a=!0),"false"==a&&(a=!1),parseFloat(a)==a&&"object"!=typeof a&&(a=parseFloat(a))}catch(c){a=b}return a}}})(jQuery);
+
+    /*
+     var jwPlayerResumable = (function($,jwp) {
+     'use strict';
+
+     var jwPlayerResumable = {
+     _video_id:"mediaplayer",
+     _show_div_after_secs:10,
+     _skip_beforeseek_event:false,
+     _div_to_show:".hide",
+     _fp: function(){
+     return jwplayer();
+     },
+     getCurrentPos: function() {
+     return jwplayer().getPosition();
+     },
+     setCurrentPos: function(seconds) {
+     this._skip_beforeseek_event = true;
+
+     if(typeof(jwplayer().getDuration()) == "undefined"){
+     setTimeout(function(){
+     jwPlayerResumable.setCurrentPos(jwPlayerResumable.getTimePosition());
+     },1000);
+     return;
+     }
+
+     if (jwplayer().getDuration() == -1 || jwplayer().getDuration() > Number(seconds+5))
+     {
+     jwplayer().seek(jwPlayerResumable.getTimePosition());
+     }
+     this._skip_beforeseek_event = false;
+     },
+     setTimePosition: function(time){
+     $.totalStorage(this._video_id,time);
+     },
+     getTimePosition: function(){
+     return $.totalStorage(this._video_id);
+     },
+     resumePlayBack: function(more_settings){
+     var time = this.getTimePosition();
+     this.setCurrentPos(time);
+
+     // showing div
+
+     var div_time = more_settings.aftertime || this._show_div_after_secs;
+
+     if(time > div_time){
+     $(more_settings.divtoshow).each(function(k,v){
+     $(this).css("display","block");
+     });
+
+     }
+
+     return this;
+     },
+     init: function(id){
+     if(typeof(id) != "undefined"){
+     this._video_id = String(id);
+     }
+
+     jwplayer().onTime(function(e){
+     jwPlayerResumable.setTimePosition(e.position);
+     });
+
+     return this;
+     }
+     }
+
+     return jwPlayerResumable;
+
+     }(jQuery,jwplayer));
+
+     jwPlayerResumable.init("video-uomo").resumePlayBack({
+     aftertime:1209,
+     divtoshow:['#timer_div','#timer_div2','#buy_button','#buy_button2']
+     });
+     */
+</script>

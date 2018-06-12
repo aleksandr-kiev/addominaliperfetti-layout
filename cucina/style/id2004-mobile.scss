@@ -1,0 +1,200 @@
+#cwrap{
+  .content-box{
+  }
+  .desktop-image{
+    display: inline;
+  }
+  .mobile-show{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px){
+  body{
+    #cwrap{
+      width: 100%;
+      #mainmenu{
+        width: 100% !important;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      #orange_header{
+        width: 100%;
+        .head_img_container{
+          img{
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+          .mobile-show{
+            display: none;
+          }
+        }
+      }
+      .content-box{
+        width: 100%!important;
+        #rightcontent{
+          width: 100%!important;
+          float: none;
+          margin: auto;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        #footer5{
+          width: 100%;
+          float: none;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px){
+  body{
+    #cwrap{
+      padding-top: 0;
+      width: 100%;
+      #mainmenu{
+        display: none;
+      }
+      #menu_mobile{
+        display: block!important;
+        padding: 0 5px;
+        margin: 3px 0;
+        select{
+          width: 100%;
+        }
+      }
+      .desktop-image{
+        display: none;
+      }
+      .mobile-show{
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      #orange_header{
+        width: 100%!important;
+        .head_img_container{
+          width: 100%!important;
+          .desktop-image{
+            display: none;
+          }
+          .mobile-show{
+            display: block;
+            width: 100%;
+            height: auto;
+          }
+        }
+      }
+      .content-box{
+        #rightcontent.content-fresh{
+          width: 100%!important;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          padding: 10px!important;
+          border-radius: 0;
+          p{
+            width: 100%!important;
+          }
+          .image-box{
+            *{
+              width: 100%!important;
+            }
+            img{
+              float: none!important;
+              margin: auto!important;
+              display: block!important;
+              height: auto!important;
+              opacity: 1!important;
+            }
+            .euro-image{
+              width: 100%!important;
+              max-width: 480px!important;
+            }
+            .book-01_edited-40{
+              width: 100%!important;
+              max-width: 480px!important;
+            }
+            .add-image{
+              width: 100%!important;
+              max-width: 500px!important;
+            }
+            .add-image-second{
+              width: 100%!important;
+              max-width: 650px!important;
+            }
+            .pay-button{
+              width: 100%!important;
+              max-width: 460px!important;
+            }
+          }
+          .content-box{
+            .image-box{
+              img{
+                float: none!important;
+                margin: auto!important;
+                display: block!important;
+                height: auto!important;
+                opacity: 1!important;
+                width: 100%!important;
+              }
+            }
+            .olio-di-coco-box{
+              >img{
+                margin: 20px auto!important;
+              }
+            }
+            .fbk-sugar{
+              margin-top: 0!important;
+            }
+            .barrette-proteiche-danni, .fbk-nuova-ecover, .box-attenzione, .ormone-dimagrante, .box-effetti-antiaging,
+            .garanzia-box-cbg, .final-add, .latte-di-soia-danni{
+              display: block!important;
+              margin: auto!important;
+              width: 100%!important;
+              height: auto!important;
+            }
+            .fbk-nuova-ecover{
+              max-width:200px!important;
+            }
+            .box-attenzione{
+              max-width:650px!important;
+            }
+
+
+            .barrette-proteiche-danni, .ormone-dimagrante, .pane-integrale-danni, .olio-di-coco,
+            .latte-di-soia-danni{
+              max-width: 400px!important;
+            }
+
+            .box-effetti-antiaging{
+              max-width:650px!important;
+            }
+            .garanzia-box-cbg{
+              max-width:650px!important;
+            }
+            #testimonial{
+              margin: 0;
+            }
+            .book-01_edited-40{
+              max-width: 480px!important;
+            }
+            .final-add{
+              max-width: 350px!important;
+            }
+            .fbk-wheat, .fbk-oils, .fbk-heart, .fbk-sugar{
+              max-width: 315px!important;
+            }
+          }
+          .mobile-hidden{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

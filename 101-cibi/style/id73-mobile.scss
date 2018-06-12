@@ -1,0 +1,167 @@
+#cwrap{
+  .desktop-image{
+    display: inline;
+  }
+  .mobile-show{
+    display: none;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  #cwrap .large_container #rightcontent {
+
+  }
+}
+
+@media screen and (max-width: 750px){
+  #cwrap{
+    #orange_header{
+      width: 100%!important;
+      .head_img_container{
+        width: 100%!important;
+        .desktop-image{
+          display: none;
+        }
+        .mobile-show{
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+    .large_container{
+      #rightcontent{
+        width: 100%!important;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        >*{
+          width: 100%!important;
+          display: block;
+          margin: 0 0 20px 0;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          >*{
+            float: none!important;
+          }
+        }
+        table.mobile-table{
+          float: none!important;
+        }
+        .mobile-hidden{
+          display: none;
+        }
+        .cibicover{
+          margin: auto;
+          width: 200px!important;
+          height: auto;
+      }
+        #testimonial{
+          .paragraph-first{
+            .animated_man{
+              display: block;
+              width: 150px!important;
+              height: auto!important;
+              float: none!important;
+              margin: auto;
+            }
+          }
+        }
+        .row-first{
+          margin-top: 20px;
+        }
+        .merged_man-woman{
+          display: block;
+          width: 220px!important;
+          height: auto!important;
+          float: none!important;
+          margin: auto;
+        }
+        #bullet{
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          margin-bottom: 0;
+          padding-left: 20px;
+          .mobile-show{
+            display: list-item;
+          }
+          .carciofi-box, .spices-box, .steak-box{
+            width: 100%;
+            position: relative;
+            height: auto;
+            min-height: 85px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            padding-right: 5px;
+            img{
+              display: inline-block;
+              width: 100px;
+              position: absolute;
+              top: 0;
+              right: 5px;
+            }
+            p{
+              display: block;
+              width: calc(100% - 110px);
+              margin: 0;
+            }
+          }
+          .spices-box, .steak-box{
+            height: auto;
+            min-height: 130px;
+            img{
+              width: 150px;
+            }
+            p{
+              width: calc(100% - 160px);
+            }
+          }
+        }
+
+        .rimborsati-image{
+          display: block;
+          margin: auto;
+          width: 150px!important;
+          height: auto!important;
+          margin-bottom: 20px;
+        }
+        .botitalian-box{
+          a{
+            img{
+              max-width: 100%!important;
+              width: 100%!important;
+              height: auto!important;
+              display: block;
+              margin: auto;
+            }
+          }
+        }
+        .benefits-box{
+          img{
+            max-width: 100%!important;
+            width: 100%!important;
+            height: auto!important;
+            display: block;
+            margin: auto;
+          }
+        }
+        .mobile-xx-font{
+          font-size: 26px!important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 390px) {
+  #cwrap .large_container #rightcontent {
+    .links-box .link-item{
+      width: 100%!important;
+    }
+    p .image-second{
+      width: 150px !important;
+    }
+  }
+}

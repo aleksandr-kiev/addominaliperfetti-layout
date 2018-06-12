@@ -1,0 +1,143 @@
+.mobile-show, .paragraph-mobile {
+  display: none; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5), screen and (min--moz-device-pixel-ratio: 1.5), screen and (-o-min-device-pixel-ratio: 1.5) {
+  #rightcontent > div {
+    width: 100% !important;
+    margin: auto !important; }
+  #rightcontent .player-box {
+    width: 100% !important;
+    margin: auto !important; }
+    #rightcontent .player-box #mediaplayer {
+      width: auto !important;
+      max-width: 700px; }
+  #rightcontent #timer_div {
+    width: 100% !important;
+    margin: auto !important; }
+    #rightcontent #timer_div h4:nth-child(1) {
+      margin: 20px 0 !important; }
+    #rightcontent #timer_div > div {
+      width: 100% !important;
+      margin: auto !important;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+  #rightcontent .timer_content {
+    max-width: 600px;
+    margin: auto !important; }
+    #rightcontent .timer_content #time2, #rightcontent .timer_content #time {
+      margin: auto;
+      text-align: center;
+      width: 200px; }
+  #rightcontent .timer_content_bottom {
+    margin-top: 20px !important; } }
+@media screen and (max-width: 750px) {
+  body .mobile-hidden {
+    display: none; }
+  body .mobile-show {
+    display: block; }
+  body .cbtb {
+    width: calc(100% - 20px) !important;
+    padding: 0 10px !important;
+    margin: 0 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    body .cbtb #cbBadge {
+      width: calc(100% - 20px) !important;
+      box-sizing: border-box;
+      margin: 10px auto 0 auto; }
+  body #cwrap {
+    width: 100% !important; }
+    body #cwrap .large_container#contentwrap #rightcontent, body #cwrap .large_container#contentwrap #footer, body #cwrap .large_container#contentwrap .cbtb {
+      width: calc(100% - 20px) !important;
+      padding: 0 10px !important;
+      margin: 0 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+    body #cwrap .large_container#contentwrap #rightcontent {
+      padding-top: 30px !important; }
+      body #cwrap .large_container#contentwrap #rightcontent > p {
+        margin: 0 0 10px 0; }
+        body #cwrap .large_container#contentwrap #rightcontent > p * {
+          text-align: center; }
+      body #cwrap .large_container#contentwrap #rightcontent .paragraph-bold {
+        font-weight: 600; }
+      body #cwrap .large_container#contentwrap #rightcontent .paragraph-mobile {
+        display: block;
+        font-size: 23px;
+        text-align: center; }
+      body #cwrap .large_container#contentwrap #rightcontent .paragraph-yellow {
+        background-color: #FFFF00;
+        max-width: 250px;
+        display: block;
+        margin: auto; }
+      body #cwrap .large_container#contentwrap #rightcontent div[align='center'] {
+        width: 100% !important; }
+        body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #mediaplayer {
+          width: 100% !important; }
+          body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #mediaplayer div:nth-child(2) {
+            width: 100% !important; }
+            body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #mediaplayer div:nth-child(2) .jwmain {
+              width: calc(100% - 10px) !important;
+              margin: 5px auto; }
+              body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #mediaplayer div:nth-child(2) .jwmain .jwvideo {
+                width: 100% !important; }
+                body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #mediaplayer div:nth-child(2) .jwmain .jwvideo video {
+                  width: 100% !important; }
+        body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div h4:first-child {
+          margin: 20px 0; }
+        body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div div {
+          width: 100% !important;
+          margin: auto !important;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+          body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div div p#time, body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div div p#time2 {
+            margin: auto;
+            text-align: center;
+            width: 200px; }
+          body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div div p.image-title img {
+            display: block;
+            width: 50% !important;
+            max-width: 120px !important;
+            margin: auto;
+            float: none; }
+          body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div div img.book-image {
+            display: block;
+            width: 50% !important;
+            max-width: 200px !important;
+            margin: auto;
+            float: none; }
+          body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div div img.soddisfatti-image {
+            display: block;
+            width: 50% !important;
+            max-width: 135px !important;
+            margin: auto;
+            float: none; }
+          body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div div p.mobile-images-box > img {
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: auto; }
+          body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div div p.mobile-images-box .mobile-image-stephanie-a {
+            max-width: 255px !important; }
+          body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div div p.mobile-images-box .mobile-image-stephanie-b {
+            max-width: 128px !important; }
+          body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div div p.mobile-images-box .mobile-image-stephanie-c {
+            max-width: 82px !important; }
+          body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div div p.mobile-images-box span, body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div div p.mobile-images-box em, body #cwrap .large_container#contentwrap #rightcontent div[align='center'] #timer_div div p.mobile-images-box font {
+            width: 100%;
+            text-align: center;
+            display: block; }
+      body #cwrap .large_container#contentwrap #rightcontent .mobile-blockquote {
+        width: 100%;
+        display: block;
+        margin: 0; }
+        body #cwrap .large_container#contentwrap #rightcontent .mobile-blockquote blockquote {
+          display: block;
+          margin: auto;
+          width: 80%; } }
+
+/*# sourceMappingURL=id45-mobile.css.map */

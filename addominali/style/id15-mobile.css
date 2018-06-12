@@ -1,0 +1,100 @@
+#cwrap #orange_header .head_img_container .desktop-image {
+  display: inline; }
+#cwrap #orange_header .head_img_container .mobile-image {
+  display: none; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
+  #cwrap .large_container #rightcontent .links-box .link-item {
+    width: 50% !important;
+    margin: auto; }
+    #cwrap .large_container #rightcontent .links-box .link-item img {
+      float: none !important; }
+    #cwrap .large_container #rightcontent .links-box .link-item h1 em {
+      display: block; }
+      #cwrap .large_container #rightcontent .links-box .link-item h1 em strong {
+        display: block; }
+        #cwrap .large_container #rightcontent .links-box .link-item h1 em strong a img {
+          display: block;
+          margin: auto;
+          width: 100% !important;
+          height: auto !important;
+          max-width: 100% !important; }
+  #cwrap .large_container #rightcontent .links-box .link-item:nth-child(1) {
+    margin-bottom: 40px; } }
+@media screen and (max-width: 750px) {
+  #cwrap #orange_header {
+    width: 100% !important; }
+    #cwrap #orange_header .head_img_container {
+      width: 100% !important; }
+      #cwrap #orange_header .head_img_container .desktop-image {
+        display: none; }
+      #cwrap #orange_header .head_img_container .mobile-image {
+        display: block;
+        width: 100%;
+        height: auto; }
+  #cwrap .large_container #rightcontent {
+    width: 100% !important;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    #cwrap .large_container #rightcontent > * {
+      width: 100% !important;
+      display: block;
+      margin: 0 0 10px 0;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
+      #cwrap .large_container #rightcontent > * > * {
+        float: none !important; }
+    #cwrap .large_container #rightcontent p * {
+      margin: auto;
+      text-align: center;
+      display: block; }
+    #cwrap .large_container #rightcontent p .image-first {
+      max-width: 100% !important;
+      width: 100% !important;
+      height: auto !important; }
+    #cwrap .large_container #rightcontent p .image-second {
+      display: block;
+      margin: auto !important;
+      width: 190px !important;
+      height: auto !important; }
+    #cwrap .large_container #rightcontent .mobile-hidden {
+      display: none; }
+    #cwrap .large_container #rightcontent > ul {
+      padding-left: 30px; }
+    #cwrap .large_container #rightcontent .paragraph-first {
+      margin-bottom: 0; }
+    #cwrap .large_container #rightcontent .paragraph-second {
+      margin-top: 0;
+      margin-bottom: 20px; }
+    #cwrap .large_container #rightcontent .paragraph-third {
+      padding-left: 5px; }
+      #cwrap .large_container #rightcontent .paragraph-third span {
+        text-align: left; }
+    #cwrap .large_container #rightcontent .paragraph-fourth {
+      padding-left: 5px; }
+    #cwrap .large_container #rightcontent .links-box .link-item {
+      width: 350px !important;
+      margin: auto; }
+      #cwrap .large_container #rightcontent .links-box .link-item img {
+        float: none !important; }
+      #cwrap .large_container #rightcontent .links-box .link-item h1 em {
+        display: block; }
+        #cwrap .large_container #rightcontent .links-box .link-item h1 em strong {
+          display: block; }
+          #cwrap .large_container #rightcontent .links-box .link-item h1 em strong a img {
+            display: block;
+            margin: auto;
+            width: 100% !important;
+            height: auto !important;
+            max-width: 100% !important; }
+    #cwrap .large_container #rightcontent .links-box .link-item:nth-child(1) {
+      margin-bottom: 40px; } }
+@media screen and (max-width: 390px) {
+  #cwrap .large_container #rightcontent .links-box .link-item {
+    width: 100% !important; }
+  #cwrap .large_container #rightcontent p .image-second {
+    width: 150px !important; } }
+
+/*# sourceMappingURL=id15-mobile.css.map */

@@ -1,0 +1,201 @@
+.mobile-show, .paragraph-mobile{
+  display: none;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min--moz-device-pixel-ratio: 1.5),
+screen and (-o-min-device-pixel-ratio: 1.5){
+  #rightcontent{
+    > div {
+      width: 100%!important;
+      margin: auto!important;
+    }
+    .player-box{
+      width: 100%!important;
+      margin: auto!important;
+      #mediaplayer{
+        width: auto!important;
+        max-width: 700px;
+      }
+    }
+    #timer_div{
+      width: 100%!important;
+      margin: auto!important;
+      h4:nth-child(1){
+        margin: 20px 0!important;
+      }
+      >div {
+        width: 100%!important;
+        margin: auto!important;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+    }
+    .timer_content{
+      max-width: 600px;
+      margin: auto!important;
+
+      #time2, #time{
+        margin: auto;
+        text-align: center;
+        width: 200px;
+      }
+    }
+    .timer_content_bottom{
+      margin-top: 20px!important;
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  body{
+    .mobile-hidden{
+      display: none;
+    }
+
+    .mobile-show{
+      display: block;
+    }
+    .cbtb{
+      width: calc(100% - 20px)!important;
+      padding: 0 10px!important;
+      margin: 0 10px;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      #cbBadge{
+        width: calc(100% - 20px)!important;
+        box-sizing: border-box;
+        margin: 10px auto 0 auto;
+      }
+    }
+    #cwrap{
+      width: 100%!important;
+      .large_container#contentwrap{
+        #rightcontent, #footer, .cbtb{
+          width: calc(100% - 20px)!important;
+          padding: 0 10px!important;
+          margin: 0 10px;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+        }
+        #rightcontent{
+          padding-top: 30px!important;
+          >p {
+            margin : 0 0 10px 0;
+            *{
+              text-align: center;
+            }
+          }
+          .paragraph-bold{
+            font-weight: 600;
+          }
+          .paragraph-mobile{
+            display: block;
+            font-size: 23px;
+            text-align: center;
+          }
+          .paragraph-yellow{
+            background-color:#FFFF00;
+            max-width: 250px;
+            display: block;
+            margin: auto;
+          }
+          div[align='center']{
+            width: 100% !important;
+            #mediaplayer{
+              width: 100% !important;
+              div:nth-child(2){
+                width: 100%!important;
+                .jwmain{
+                  width: calc(100% - 10px) !important;
+                  margin: 5px auto;
+                  .jwvideo{
+                    width: 100%!important;
+                    video{
+                      width: 100%!important;
+                    }
+                  }
+                }
+              }
+            }
+            #timer_div{
+              h4:first-child{
+                margin: 20px 0;
+              }
+              div{
+                width: 100%!important;
+                margin: auto!important;
+                -webkit-box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                box-sizing: border-box;
+                p#time, p#time2{
+                  margin: auto;
+                  text-align: center;
+                  width: 200px;
+                }
+                p.image-title{
+                  img{
+                    display: block;
+                    width: 50%!important;
+                    max-width: 120px!important;
+                    margin: auto;
+                    float: none;
+                  }
+                }
+                img.book-image{
+                  display: block;
+                  width: 50%!important;
+                  max-width: 200px!important;
+                  margin: auto;
+                  float: none;
+                }
+                img.soddisfatti-image{
+                  display: block;
+                  width: 50%!important;
+                  max-width: 135px!important;
+                  margin: auto;
+                  float: none;
+                }
+                p.mobile-images-box{
+                  >img{
+                    width: 100%;
+                    height:auto;
+                    display: block;
+                    margin: auto;
+                  }
+                  .mobile-image-stephanie-a{
+                    max-width: 255px!important;
+                  }
+                  .mobile-image-stephanie-b{
+                    max-width: 128px!important;
+                  }
+                  .mobile-image-stephanie-c{
+                    max-width: 82px!important;
+                  }
+                  span, em, font{
+                    width: 100%;
+                    text-align: center;
+                    display: block;
+                  }
+                }
+              }
+            }
+          }
+          .mobile-blockquote{
+            width: 100%;
+            display: block;
+            margin: 0;
+            blockquote{
+              display: block;
+              margin: auto;
+              width: 80%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
